@@ -25,10 +25,3 @@ A beginner-friendly cheat sheet explaining:
 | `ping <ip> -t` | Continuous ping to check connection stability |
 
 ---
-
-## 🖼️ Diagrams with Icons
-
-### 1) `ipconfig` (Basic Network Info)
-**Command:**
-```bat
-ipconfig
