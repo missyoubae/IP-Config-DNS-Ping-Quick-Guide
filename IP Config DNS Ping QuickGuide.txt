@@ -1,0 +1,146 @@
+┌──────────────────────┬──────────────────────────┐
+│ Command │ Purpose │
+├──────────────────────┼──────────────────────────┤
+│ ipconfig │ Basic network info │
+│ ipconfig /all │ Full network details │
+│ ipconfig /flushdns │ Clear DNS cache │
+│ ipconfig /displaydns │ Show DNS cache │
+│ ping -t │ Continuous connectivity │
+└──────────────────────┴──────────────────────────┘
+
+ IPconfig
+ Dual Stack
+ IPconfig/all
+ Flushing DNS
+ DNS Spoofing
+ /displaydns
+  IPconfig
+ ping 192.168.0.1 -t
+
+
+1. IPCONFIG
+
+🖥️ Computer
+   │
+   ├── 🌐 IP Address → 192.168.0.10
+   ├── 🚪 Gateway → 192.168.0.1
+   └── 🎭 Subnet Mask → 255.255.255.0
+
+Command: ipconfig
+
+Purpose:
+✅ Shows basic network information for your PC.
+
+--------------------------------------------------
+
+2. IPCONFIG /ALL
+
+🖥️ Full Network Details
+│
+├── 🌐 IP Address
+├── 🎭 MAC Address
+├── 📡 DNS Server
+├── 📅 DHCP Lease
+├── 🔌 Adapter Name
+└── 🚪 Default Gateway
+
+Command: ipconfig /all
+
+Purpose:
+✅ Shows complete network configuration details.
+
+--------------------------------------------------
+
+3. FLUSHING DNS
+
+Before Flush:
+🖥️ PC → 📦 Old DNS Cache → ❌ Wrong Website
+
+After Flush:
+🖥️ PC → 🧹 Cache Cleared → ✅ Fresh DNS Lookup
+
+Command: ipconfig /flushdns
+
+Purpose:
+✅ Clears stored DNS records from your computer.
+
+Used when:
+- Website not loading
+- Old IP cached
+- DNS problems
+
+--------------------------------------------------
+
+4. DNS SPOOFING
+
+Normal Process:
+👤 User → 🌐 DNS Server → ✅ Real Website
+
+DNS Spoofing Attack:
+👤 User → ☠️ Fake DNS → 🎭 Fake Website
+
+Example:
+google.com
+     ↓
+Fake IP Address
+     ↓
+⚠️ Phishing Website
+
+Purpose of Attack:
+❌ Steal passwords
+❌ Redirect traffic
+❌ Spread malware
+
+--------------------------------------------------
+
+5. IPCONFIG /DISPLAYDNS
+
+🖥️ PC DNS Cache
+│
+├── google.com → 142.250.x.x
+├── youtube.com → 142.251.x.x
+└── facebook.com → 157.240.x.x
+
+Command: ipconfig /displaydns
+
+Purpose:
+✅ Shows saved DNS records on your PC.
+
+--------------------------------------------------
+
+6. PING 192.168.0.1 -T
+
+🖥️ Your PC
+   📡📡📡📡📡
+        ↓
+📶 Router (192.168.0.1)
+
+Command: ping 192.168.0.1 -t
+
+Meaning:
+- `ping` → Tests connection
+- `192.168.0.1` → Router IP
+- `-t` → Continuous ping
+
+Result:
+✅ Replies = Network working
+❌ Request timed out = Connection issue
+
+Stop command:
+⌨️ Press: Ctrl + C
+
+--------------------------------------------------
+
+QUICK SUMMARY CHART
+
+┌──────────────────────┬──────────────────────────┐
+│ Command              │ Purpose                │
+├──────────────────────┼──────────────────────────┤
+│ ipconfig             │ Basic network info   	│
+│ ipconfig /all        │ Full network details	 │
+│ ipconfig /flushdns   │ Clear DNS cache	│
+│ ipconfig /displaydns │ Show DNS cache	 │
+│ ping -t              │ Continuous connectivity  │
+└──────────────────────┴──────────────────────────┘
+
+
