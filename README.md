@@ -1,5 +1,7 @@
 # ipconfig-dns-ping-quick-guide
 
+![image alt](https://github.com/missyoubae/IP-Config-DNS-Ping-Quick-Guide/blob/f7674599b0db3e7497ae55374bd5b12601406759/Screenshot%20(43).png)
+
 A beginner-friendly cheat sheet explaining:
 - `ipconfig`
 - `ipconfig /all`
